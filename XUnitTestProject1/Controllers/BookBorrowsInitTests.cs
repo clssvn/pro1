@@ -1,4 +1,4 @@
-﻿using Library.Entities;
+using Library.Entities;
 using Microsoft.AspNetCore.TestHost;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
@@ -74,10 +74,6 @@ namespace XUnitTestProject1.Controllers
 
             Assert.True(bookBorrow.IdBook == 2);
         }
-
-
-
-
 
         [Fact]
         public async Task PutBookBorrow()
